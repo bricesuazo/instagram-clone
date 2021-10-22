@@ -1,0 +1,27 @@
+.story{
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: inherit;
+    cursor: pointer;
+    gap: 8px;
+}
+.storyImg.seen{
+    color: gray;
+}
+
+.storyImg{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    outline: 2px solid red;
+    outline-offset: 2px;
+    object-fit: cover;
+}
+.storyImg.seen{
+    outline: 2px solid rgb(228, 228, 228);
+}
+.storyUsername{
+    font-size: .7rem;
+}
